@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>creality-scan</id>
+    <version>4.2.2</version>
+    <title>Creality Scan</title>
+    <authors>Creality</authors>
+    <owners>sanikovich</owners>
+    <summary>3D Scanning Software by Creality</summary>
+    <description>Creality Scan is an official 3D scanning software designed for Creality 3D scanners (CR-Scan series, etc.). It supports high-precision scanning, point cloud processing, and mesh generation.</description>
+    
+    <projectUrl>https://www.crealitycloud.com/downloads/software/creality-scan</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/creality-scan</packageSourceUrl>
+    <tags>creality 3d-scanner scan scanning cr-scan 3d</tags>
+    <copyright>© Creality</copyright>
+    <licenseUrl>https://www.creality.com/pages/software-license-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

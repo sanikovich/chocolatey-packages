@@ -19,4 +19,9 @@
     <licenseUrl>https://github.com/zed-industries/zed/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
+
+  <!-- Files section -->
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

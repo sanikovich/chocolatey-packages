@@ -1,11 +1,23 @@
-﻿
-Note: Include this file if including binaries you have the right to distribute.
-Otherwise delete. this file.
+﻿Zed Editor License
+==================
 
-===DELETE ABOVE THIS LINE AND THIS LINE===
+Copyright (c) 2023-2026 Zed Industries, Inc.
 
-From: <insert applicable license url here>
+This package installs Zed - a high-performance code editor.
 
-LICENSE
+The software (Zed) is licensed under the following license:
 
-<Insert License Here>
+    Apache License, Version 2.0 (with additional terms)
+    https://github.com/zed-industries/zed/blob/main/LICENSE
+
+Full license text is available at:
+https://github.com/zed-industries/zed/blob/main/LICENSE
+
+---
+
+This Chocolatey package (zed-core) is maintained separately and does not
+modify the original software. It simply downloads and installs the official
+Windows executable from the official GitHub releases.
+
+For the full source code and license of Zed, please visit:
+https://github.com/zed-industries/zed

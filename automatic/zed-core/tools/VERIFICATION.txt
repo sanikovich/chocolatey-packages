@@ -1,13 +1,33 @@
-﻿
-Note: Include this file if including binaries you have the right to distribute.
-Otherwise delete. this file. If you are the software author, you can mention
-this.
+﻿VERIFICATION
+============
 
-===DELETE ABOVE THIS LINE AND THIS LINE===
-
-VERIFICATION
 Verification is intended to assist the Chocolatey moderators and community
 in verifying that this package's contents are trustworthy.
 
-<Include details of how to verify checksum contents>
-<If software vendor, explain that here>
+Package URL: https://community.chocolatey.org/packages/zed-core
+
+The embedded software is downloaded from the official GitHub repository:
+
+    https://github.com/zed-industries/zed/releases
+
+To verify:
+
+1. Go to the release page: https://github.com/zed-industries/zed/releases/tag/v1.7.2 (replace with current version)
+2. Download the file "Zed-x86_64.exe"
+3. Compute the SHA256 checksum of the downloaded file and compare it to the one listed in tools\chocolateyInstall.ps1
+
+Alternatively, you can use the following PowerShell command:
+
+    Get-FileHash Zed-x86_64.exe -Algorithm SHA256
+
+The checksum in the package should match the official binary published by Zed Industries.
+
+The maintainer of this Chocolatey package has no affiliation with Zed Industries,
+but the binaries are downloaded directly from their official GitHub releases.
+
+---
+
+Binary verification:
+- Publisher: Zed Industries
+- Source: https://github.com/zed-industries/zed
+- License: Apache-2.0 (with exceptions) — see LICENSE.txt
