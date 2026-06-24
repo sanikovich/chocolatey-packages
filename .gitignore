@@ -1,0 +1,39 @@
+# Chocolatey
+*.nupkg
+tools/*.exe
+tools/*.msi
+tools/*.zip
+tools/*.7z
+automatic/*/tools/*.exe
+
+# Chocolatey Automatic Updater
+au/
+au_temp/
+Update-*
+
+# PowerShell
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1.bak
+
+# Visual Studio / Rider
+bin/
+obj/
+*.suo
+*.user
+*.sln.cache
+.vs/
+.idea/
+ RiderUserData/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+temp/
+tmp/

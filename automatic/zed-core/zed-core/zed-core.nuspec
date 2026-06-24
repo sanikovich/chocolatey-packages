@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>zed-core</id>
+    <version>1.8.2</version>
+    <title>Zed Editor (Core)</title>
+    <authors>Zed Industries</authors>
+    <owners>sanikovich</owners>
+    <summary>High-performance code editor from Zed Industries</summary>
+    <description>Zed is a high-performance, GPU-accelerated code editor built in Rust. This is the official Windows installer package.</description>
+    
+    <projectUrl>https://zed.dev/</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/zed-core</packageSourceUrl>
+    <docsUrl>https://zed.dev/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/zed-industries/zed/issues</bugTrackerUrl>
+    
+    <tags>zed editor code rust ide gpu</tags>
+    <copyright>© Zed Industries</copyright>
+    <licenseUrl>https://github.com/zed-industries/zed/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
