@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bloody-workshop</id>
+    <version>2026.0615</version>
+    <title>Bloody WorkShop</title>
+    <authors>A4Tech (Bloody)</authors>
+    <owners>sanikovich</owners>
+    <summary>Official software for Bloody gaming mice and keyboards</summary>
+    <description>Bloody WorkShop is the official configuration and macro software for Bloody gaming peripherals (mice and keyboards) by A4Tech.</description>
+    
+    <projectUrl>https://www.bloody.com/en/Detailed.php?rid=1&amp;cid=230</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/bloody-workshop</packageSourceUrl>
+    <tags>bloody a4tech gaming mouse keyboard macro workshop</tags>
+    <copyright>© A4Tech</copyright>
+    <licenseUrl>https://www.bloody.com</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

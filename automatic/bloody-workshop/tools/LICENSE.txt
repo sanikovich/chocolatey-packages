@@ -1,0 +1,9 @@
+﻿Bloody WorkShop License
+=======================
+
+Copyright © A4Tech Co., Ltd.
+
+This is proprietary software. Please refer to the license agreement
+shown during installation.
+
+This Chocolatey package downloads the official installer from A4Tech servers.

@@ -1,0 +1,10 @@
+﻿VERIFICATION
+============
+
+The installer is downloaded from the official A4Tech / Bloody source:
+
+    https://www.a4tech.com.tw/download/BloodyMouse/BloodyWorkShop8_V2026.0615.exe
+
+To verify:
+1. Download the .exe manually.
+2. Compute SHA256 checksum and compare with the value in tools\chocolateyInstall.ps1.
