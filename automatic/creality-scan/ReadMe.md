@@ -2,7 +2,7 @@
 
 [![Chocolatey Version](https://img.shields.io/chocolatey/v/creality-scan.svg)](https://community.chocolatey.org/packages/creality-scan)
 
-**Creality Scan** — официальное ПО для 3D-сканирования от Creality. Подходит для сканеров серии CR-Scan и других моделей.
+**Creality Scan** — is the official 3D scanning software developed by Creality. It is designed for high-precision scanning with Creality CR-Scan series and other compatible 3D scanners. Features include point cloud processing, mesh generation, and easy workflow from scan to model.
 
 ## Installation
 
