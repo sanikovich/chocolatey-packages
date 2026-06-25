@@ -1,0 +1,9 @@
+﻿Anycubic Photon Workshop License
+================================
+
+Copyright © Anycubic
+
+This is proprietary software. Please refer to the license agreement
+shown during installation or on the official Anycubic website.
+
+This Chocolatey package downloads the official installer from Anycubic's CDN.

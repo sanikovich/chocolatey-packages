@@ -1,0 +1,14 @@
+﻿VERIFICATION
+============
+
+The installer is downloaded from the official Anycubic CDN:
+
+    https://cdn.anycubic-cloud.anycubic.com/.../AnycubicPhotonWorkshop_v4.1.7_x64.exe
+
+To verify the package:
+1. Download the .exe manually.
+2. Compute SHA256:
+
+   Get-FileHash AnycubicPhotonWorkshop_v4.1.7_x64.exe -Algorithm SHA256
+
+3. Compare with the checksum in tools\chocolateyInstall.ps1.

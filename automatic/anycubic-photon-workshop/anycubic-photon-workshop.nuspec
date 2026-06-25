@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>anycubic-photon-workshop</id>
+    <version>4.1.7</version>
+    <title>Anycubic Photon Workshop</title>
+    <authors>Anycubic</authors>
+    <owners>sanikovich</owners>
+    <summary>Anycubic Photon Workshop - Official slicing software for Anycubic Photon series resin 3D printers</summary>
+    <description>Anycubic Photon Workshop is the official slicing and control software for Anycubic Photon, Photon Mono, and other resin 3D printers.</description>
+    
+    <projectUrl>https://wiki.anycubic.com/en/software-and-app-pws-update-log</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/anycubic-photon-workshop</packageSourceUrl>
+    <tags>anycubic photon workshop resin slicer 3d-printing</tags>
+    <copyright>© Anycubic</copyright>
+    <licenseUrl>https://store.anycubic.com/policies/terms-of-service</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
