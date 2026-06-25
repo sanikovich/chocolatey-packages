@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>elegoo-satellite</id>
+    <version>1.0.2.22</version>
+    <title>ELEGOO SatelLite</title>
+    <authors>Elegoo</authors>
+    <owners>sanikovich</owners>
+    <summary>ELEGOO SatelLite 3D Slicer</summary>
+    <description>ELEGOO SatelLite is a 3D slicing and printing management software developed by Elegoo for their 3D printers.</description>
+    
+    <projectUrl>https://www.elegoo.com/pages/satellite-3d-slicer</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/elegoo-satellite</packageSourceUrl>
+    <tags>elegoo satellite slicer 3d-printing</tags>
+    <copyright>© Elegoo</copyright>
+    <licenseUrl>https://www.elegoo.com/pages/terms-of-service</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,15 @@
+﻿VERIFICATION
+============
+
+The installer is downloaded from the official Elegoo source:
+
+    https://iot-p.elegoo.com/devs/ota/.../ELEGOO_SatelLite_1.0.2.22.exe
+
+To verify:
+
+1. Download the .exe manually from the link above.
+2. Run:
+
+   Get-FileHash ELEGOO_SatelLite_1.0.2.22.exe -Algorithm SHA256
+
+3. Compare the result with the checksum in tools\chocolateyInstall.ps1.

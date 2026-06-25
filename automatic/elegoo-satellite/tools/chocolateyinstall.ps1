@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$packageName = 'elegoo-slicer'
-$url = 'https://github.com/ELEGOO-3D/ElegooSlicer/releases/download/v1.5.2.2/ElegooSlicer_Windows_Installer_V1.5.2.2.exe'
+$packageName = 'elegoo-satellite'
+$url = 'https://iot-p.elegoo.com/devs/ota/a67bd7cb-cd41-47df-9375-51983c9fcb0e_1780298070409/ELEGOO_SatelLite_1.0.2.22.exe'
 
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'exe'
   url           = $url
-  checksum      = 'BC9061EA50DF0CE1A7599417634F01EEC929AA685F1BB77DD37AC49017260435'
+  checksum      = '6446E840B61B6651C5DFD9086C3793331AB6C9CEDB1BB88FE0BB4329240D10A2'
   checksumType  = 'sha256'
   silentArgs    = '/S /silent /verysilent /suppressmsgboxes /norestart'
   validExitCodes= @(0, 3010, 1641)

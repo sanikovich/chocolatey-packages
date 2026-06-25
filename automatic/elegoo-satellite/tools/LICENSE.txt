@@ -1,0 +1,9 @@
+﻿ELEGOO SatelLite License
+========================
+
+Copyright © Elegoo
+
+This software is proprietary. Please refer to the license agreement
+shown during installation or on the official Elegoo website.
+
+This Chocolatey package downloads the official installer from Elegoo's servers.
