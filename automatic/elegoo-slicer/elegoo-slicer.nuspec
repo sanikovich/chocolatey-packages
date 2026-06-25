@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>elegoo-slicer</id>
+    <version>1.5.2.2</version>
+    <title>Elegoo Slicer</title>
+    <authors>Elegoo</authors>
+    <owners>sanikovich</owners>
+    <summary>3D Slicing software for Elegoo 3D printers</summary>
+    <description>Elegoo Slicer is a powerful slicing software designed specifically for Elegoo 3D printers. Based on PrusaSlicer with custom optimizations and profiles for Elegoo machines.</description>
+    
+    <projectUrl>https://github.com/ELEGOO-3D/ElegooSlicer</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/elegoo-slicer</packageSourceUrl>
+    <tags>elegoo slicer 3d-printing slicing cura prusaslicer</tags>
+    <copyright>© Elegoo</copyright>
+    <licenseUrl>https://github.com/ELEGOO-3D/ElegooSlicer/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

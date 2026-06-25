@@ -1,0 +1,18 @@
+﻿VERIFICATION
+============
+
+The installer is downloaded directly from the official GitHub repository:
+
+    https://github.com/ELEGOO-3D/ElegooSlicer/releases
+
+To verify the package:
+
+1. Go to the release page for the corresponding version.
+2. Download the installer manually.
+3. Compute SHA256 checksum:
+
+   Get-FileHash "ElegooSlicer_Windows_Installer_VX.Y.Z.exe" -Algorithm SHA256
+
+4. Compare it with the value in tools\chocolateyInstall.ps1.
+
+The maintainer downloads binaries straight from the official source.
