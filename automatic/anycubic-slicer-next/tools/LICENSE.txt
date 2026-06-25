@@ -1,0 +1,9 @@
+﻿Anycubic Slicer Next License
+============================
+
+Copyright © Anycubic
+
+This software is based on Orca Slicer. Please refer to the license agreement
+shown during installation or on the official Anycubic website.
+
+This Chocolatey package downloads the official installer from Anycubic's CDN.

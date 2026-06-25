@@ -1,0 +1,15 @@
+﻿VERIFICATION
+============
+
+The installer is downloaded from the official Anycubic CDN:
+
+    https://cdn.anycubic-cloud.anycubic.com/.../AnycubicSlicerNext.exe
+
+To verify:
+
+1. Download the installer manually.
+2. Compute SHA256 checksum:
+
+   Get-FileHash AnycubicSlicerNext.exe -Algorithm SHA256
+
+3. Compare it with the value in tools\chocolateyInstall.ps1.

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>anycubic-slicer-next</id>
+    <version>1.4.1.2</version>
+    <title>Anycubic Slicer Next (Orca Version)</title>
+    <authors>Anycubic</authors>
+    <owners>sanikovich</owners>
+    <summary>Anycubic Slicer Next - Orca Slicer based slicer for Anycubic 3D printers</summary>
+    <description>Anycubic Slicer Next is a powerful slicing software based on Orca Slicer, optimized for Anycubic 3D printers with custom profiles and features.</description>
+    
+    <projectUrl>https://wiki.anycubic.com/en/software-and-app/new-page-anycubic-slicer-beta(orca-version)</projectUrl>
+    <packageSourceUrl>https://github.com/sanikovich/chocolatey-packages/automatic/anycubic-slicer-next</packageSourceUrl>
+    <tags>anycubic slicer orca 3d-printing slicing</tags>
+    <copyright>© Anycubic</copyright>
+    <licenseUrl>https://store.anycubic.com/policies/terms-of-service</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
